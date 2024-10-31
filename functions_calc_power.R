@@ -2,7 +2,7 @@
 #############################      Power calculations      #################################
 ############################################################################################
 
-# Function to calculate predicted number of clusters to get at least (1-beta) power, 
+# Function to calculate predicted power given number of clusters and mean/CV of cluster-period size
 # the actual power that can be reached, and the analytical variance 
 # under the cross-sectional design, HTE test
 power_CS_HTE <- function(K=50, CV, p=0.5, I=50, sigma2y=1, sigma2x=1, eff=0.08, alpha0, alpha1, rho0, rho1, alpha=0.05){
@@ -46,7 +46,7 @@ power_CS_HTE <- function(K=50, CV, p=0.5, I=50, sigma2y=1, sigma2x=1, eff=0.08, 
 }
 
 
-# Function to calculate predicted number of clusters to get at least (1-beta) power, 
+# Function to calculate predicted number predicted power given number of clusters and mean/CV of cluster-period size
 # the actual power that can be reached, and the analytical variance 
 # under the closed-cohort design, HTE test
 power_CC_HTE <- function(K=50, CV, p=0.5, I=50, sigma2y=1, sigma2x=1, eff=0.08, alpha0, alpha1, alpha2, rho0, alpha=0.05){
