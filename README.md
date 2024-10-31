@@ -7,7 +7,7 @@ I. List of Supporting Files: These supporting files are sourced in the main file
 1. functions_calc_ss.R = function to calculate the predicted number of clusters to get at least pre-specified power under a cluster randomized crossover (CRXO) design;
 2. functions_gendata.R = function to generate the data;
 3. functions_empirical.R = function to compute the empirical power or empirical type I error;
-4. functions_calc_power.R = function to calculate the predicted power given number of clusters and mean/CV of cluster-period size;
+4. functions_calc_power.R = function to calculate the predicted power given number of clusters and mean/CV of cluster-period size.
 
 II. List of Main Files: These main files are used to reproduce the results in the submitted manuscript and supporting information.
 
